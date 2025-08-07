@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm & VSCode settings
+.idea/
+.vscode/
+
+# macOS / Linux system files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+
+# Local environment variables
+.env
+.env.*
+
+# Cache files
+*.cache
+.cache/
+*.pkl
+*.joblib
+
+# Model files (if you train models)
+model/*.pt
+model/*.h5
+model/*.ckpt
+
+# LangSmith or LangChain debugging files (if any)
+langchain_logs/
+langsmith_debug/
+
+# Temporary files
+tmp/
+temp/
+*.bak
