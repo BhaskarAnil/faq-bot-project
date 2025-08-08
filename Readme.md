@@ -16,7 +16,7 @@ faq_bot_project/
 │   └── qa_pipeline.py       # Defines the QA chain logic
 ├── data/
 │   └── faqs.csv             # FAQ dataset (questions and answers)
-├── database/
+├── database/                # It will be created after executing the code once
 │   └── chroma_db/           # Chroma vector database files
 │       └── 74a840e5.../     # Internal Chroma DB files
 │       └── chroma.sqlite3   # Chroma DB SQLite file
