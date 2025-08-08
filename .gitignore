@@ -33,7 +33,7 @@ Thumbs.db
 .cache/
 *.pkl
 *.joblib
-
+database/
 # Model files (if you train models)
 model/*.pt
 model/*.h5
