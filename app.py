@@ -30,7 +30,6 @@ from langsmith_config import call_graph
 from graph.conversation_graph import build_graph
 
 
-
 st.set_page_config(page_title="Farming Chatbot")
 
 st.title("Farming Chatbot")
@@ -47,7 +46,7 @@ if prompt := st.chat_input("Say something..."):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
-    
+
     result = call_graph(prompt)
     response = result["response"]
 
